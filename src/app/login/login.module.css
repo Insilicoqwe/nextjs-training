@@ -1,0 +1,33 @@
+.container {
+    border-radius: 5px;
+    width: 350px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid rgb(202, 202, 202);
+    padding: 20px 0 40px 0;
+}
+
+.headline {
+    font-weight: 500;
+    margin: 0 0 15px 0;
+}
+
+.input {
+    width: 80%;
+    height: 32px;
+    outline: none;
+    border-radius: 2px;
+    border: 1px solid rgb(202, 202, 202);
+    margin-bottom: 20px;
+    text-indent: 15px;
+}
+
+.button {
+    width: 82%;
+    height: 40px;
+    border: none;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgb(96, 153, 218);
+}

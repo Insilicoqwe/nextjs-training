@@ -5,6 +5,11 @@
     align-items: center;
     border: 1px solid rgb(202, 202, 202);
     padding: 20px 0 40px 0;
+
+    position: absolute;
+    margin-inline: auto;
+    inset-inline: 0;
+    inset-block-start: calc(50% - 200px);
 }
 
 .headline {
@@ -29,5 +34,12 @@
     color: aliceblue;
     font-size: 16px;
     font-weight: 600;
-    background-color: rgb(96, 153, 218);
+    background-color: rgb(76, 144, 223);
+    cursor: pointer;
 }
+
+.button:hover {
+    background-color: rgb(65, 126, 196);
+    transition: 0.2s ease-out;
+}
+

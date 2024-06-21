@@ -4,11 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "prisma generate && next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@prisma/client": "^5.15.1",
+    "axios": "^1.7.2",
     "dotenv": "^16.4.5",
     "next": "14.2.4",
     "next-auth": "^4.24.7",
@@ -16,5 +18,11 @@
     "pg": "^8.12.0",
     "react": "^18",
     "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.7",
+    "@types/react": "18.3.3",
+    "prisma": "^5.15.1",
+    "typescript": "5.5.2"
   }
 }

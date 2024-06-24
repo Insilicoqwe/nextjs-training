@@ -1,0 +1,44 @@
+.container {
+    display: block;
+}
+
+.p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 50%;
+}
+
+.p1 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.user_card {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 330px;
+    background-color: white;
+    margin-bottom: 2%;
+    padding: 14px 0 14px 14px;
+    position: relative;
+}
+
+.data_field {
+    margin-left: 20px;
+}
+
+.button {
+    position: absolute;
+    border: none;
+    background-color: crimson;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    margin: 0;
+    padding-top: 4px;
+    cursor: pointer;
+    right: 5%;
+}

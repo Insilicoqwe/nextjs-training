@@ -43,3 +43,11 @@
     transition: 0.2s ease-out;
 }
 
+.all_users {
+    width: 350px;
+    height: 30px;
+    position: absolute;
+    margin-inline: auto;
+    inset-inline: 0;
+    inset-block-start: calc(65%);
+}
